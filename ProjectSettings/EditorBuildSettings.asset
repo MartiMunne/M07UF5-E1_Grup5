@@ -5,10 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/David.unity
+  - enabled: 0
+    path: Assets/_Scenes/David.unity
     guid: ade76d9bd94d845ec956569bd4ec760e
+  - enabled: 1
+    path: Assets/_Scenes/Marti.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: db5aa4b4c1c7c43da815078037d501a5, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b359dd3eb182c4ec3a05439c90b97865, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a76fb445de5e14a8bb2bce5350393277, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 5e930c6fe035741b5978b67d266f6df6, type: 2}
