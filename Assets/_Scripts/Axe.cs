@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Axe : MonoBehaviour
 {
+    public GameManager bool_script;
     // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.CompareTag("Log"))
+        {
+            bool_script.HitLog();
+        }
     }
 }
