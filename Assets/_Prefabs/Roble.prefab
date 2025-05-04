@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3773714030140525220}
   - component: {fileID: 8796415008475192640}
   - component: {fileID: 847147406571629}
+  - component: {fileID: -4219711967426244933}
   m_Layer: 0
   m_Name: Roble
   m_TagString: Log
@@ -98,11 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1282dfe2215494048b6241c3ac059c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logPrefab: {fileID: 8548388761077916988}
-  logStates:
-  - {fileID: -5771950319566349540, guid: 15fb92d9b421c0d47bc6edaaeeb4918a, type: 3}
-  - {fileID: 4447697925845070773, guid: 15fb92d9b421c0d47bc6edaaeeb4918a, type: 3}
-  - {fileID: 4493644145345282447, guid: 15fb92d9b421c0d47bc6edaaeeb4918a, type: 3}
+  bool_script: {fileID: 0}
 --- !u!65 &8796415008475192640
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -151,3 +148,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!114 &-4219711967426244933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548388761077916988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1282dfe2215494048b6241c3ac059c61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bool_script: {fileID: 0}

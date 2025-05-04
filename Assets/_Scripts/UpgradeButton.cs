@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Log : MonoBehaviour
+public class UpgradeButton : MonoBehaviour
 {
     public GameManager bool_script;
     private void Awake()
@@ -12,9 +12,9 @@ public class Log : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Axe")
+        if (other.gameObject.tag == "Hand")
         {
-            bool_script.HitLog();
+            bool_script.UpgradeLog();
         }
     }
 }

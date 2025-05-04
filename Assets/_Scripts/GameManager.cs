@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public int[] logHitValue;
 
     public GameObject[] logPrefabs;
-    public TextMeshPro scoreDisplay;
+    public TextMeshProUGUI scoreDisplay;
     public LogManager logManagerScript;
 
     public static GameManager gm;
