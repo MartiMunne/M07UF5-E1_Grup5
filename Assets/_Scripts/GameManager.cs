@@ -42,6 +42,10 @@ public class GameManager : MonoBehaviour
     }
     public void UpgradeLog()
     {
-        currentLog++;
+        if ((currentLog < 2) && (currentPoints >= (currentLog * 20 + 10)))
+        {
+            currentPoints = currentPoints - (currentLog + 10);
+            currentLog++;
+        }
     }
 }
